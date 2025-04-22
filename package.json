@@ -1,7 +1,7 @@
 {
   "name": "@mnrendra/get-caller-file",
   "version": "0.0.0-development",
-  "description": "A utility to get the caller's file path from the first call site of the stack trace.",
+  "description": "A utility to get the caller's file path from a specific callee.",
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -24,7 +24,9 @@
     "url": "https://github.com/mnrendra/get-caller-file/issues"
   },
   "homepage": "https://github.com/mnrendra/get-caller-file#readme",
-  "dependencies": {},
+  "dependencies": {
+    "@mnrendra/stack-trace": "^3.0.0"
+  },
   "devDependencies": {
     "@semantic-release/exec": "^7.0.3",
     "@semantic-release/git": "^10.0.1",
