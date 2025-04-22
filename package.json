@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/get-caller-file",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "A utility to get the caller's file path from a specific callee.",
   "private": false,
   "main": "dist/index.js",
